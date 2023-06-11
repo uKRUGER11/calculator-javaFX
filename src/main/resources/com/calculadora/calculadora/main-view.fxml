@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="450.0" stylesheets="@MainStyle.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.calculadora.calculadora.MainController">
+   <children>
+      <Pane layoutX="3.0" layoutY="46.0" prefHeight="549.0" prefWidth="444.0" styleClass="mainPane">
+         <children>
+            <Pane layoutX="6.0" layoutY="14.0" prefHeight="80.0" prefWidth="430.0" styleClass="highlight">
+               <children>
+                  <Label fx:id="labelResult" alignment="CENTER_RIGHT" layoutX="29.0" layoutY="20.0" prefHeight="41.0" prefWidth="386.0" text="0" textFill="WHITE">
+                     <font>
+                        <Font name="Consolas" size="35.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="bt7" layoutX="6.0" layoutY="104.0" onMouseClicked="#onBtNumberClicked" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
+               <children>
+                  <Label layoutX="40.0" layoutY="30.0" text="7" textFill="WHITE">
+                     <font>
+                        <Font name="Consolas" size="35.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="bt8" layoutX="117.0" layoutY="104.0" onMouseClicked="#onBtNumberClicked" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
+               <children>
+                  <Label layoutX="40.0" layoutY="30.0" text="8" textFill="WHITE">
+                     <font>
+                        <Font name="Consolas" size="35.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="bt9" layoutX="227.0" layoutY="104.0" onMouseClicked="#onBtNumberClicked" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
+               <children>
+                  <Label layoutX="40.0" layoutY="30.0" text="9" textFill="WHITE">
+                     <font>
+                        <Font name="Consolas" size="35.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="btDivide" layoutX="337.0" layoutY="104.0" onMouseClicked="#onBtSymbolClicked" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
+               <children>
+                  <Label layoutX="40.0" layoutY="30.0" text="÷" textFill="WHITE">
+                     <font>
+                        <Font name="Consolas" size="35.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="bt4" layoutX="6.0" layoutY="213.0" onMouseClicked="#onBtNumberClicked" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
+               <children>
+                  <Label layoutX="40.0" layoutY="30.0" text="4" textFill="WHITE">
+                     <font>
+                        <Font name="Consolas" size="35.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="bt5" layoutX="117.0" layoutY="213.0" onMouseClicked="#onBtNumberClicked" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
+               <children>
+                  <Label layoutX="40.0" layoutY="30.0" text="5" textFill="WHITE">
+                     <font>
+                        <Font name="Consolas" size="35.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="bt6" layoutX="227.0" layoutY="213.0" onMouseClicked="#onBtNumberClicked" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
+               <children>
+                  <Label layoutX="40.0" layoutY="30.0" text="6" textFill="WHITE">
+                     <font>
+                        <Font name="Consolas" size="35.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="btMultiply" layoutX="337.0" layoutY="213.0" onMouseClicked="#onBtSymbolClicked" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
+               <children>
+                  <Label layoutX="40.0" layoutY="30.0" text="x" textFill="WHITE">
+                     <font>
+                        <Font name="Consolas" size="35.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="bt1" layoutX="6.0" layoutY="324.0" onMouseClicked="#onBtNumberClicked" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
+               <children>
+                  <Label layoutX="40.0" layoutY="30.0" text="1" textFill="WHITE">
+                     <font>
+                        <Font name="Consolas" size="35.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="bt2" layoutX="117.0" layoutY="324.0" onMouseClicked="#onBtNumberClicked" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
+               <children>
+                  <Label layoutX="40.0" layoutY="30.0" text="2" textFill="WHITE">
+                     <font>
+                        <Font name="Consolas" size="35.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="bt3" layoutX="227.0" layoutY="324.0" onMouseClicked="#onBtNumberClicked" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
+               <children>
+                  <Label layoutX="40.0" layoutY="30.0" text="3" textFill="WHITE">
+                     <font>
+                        <Font name="Consolas" size="35.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="btMinus" layoutX="337.0" layoutY="324.0" onMouseClicked="#onBtSymbolClicked" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
+               <children>
+                  <Label layoutX="40.0" layoutY="30.0" text="-" textFill="WHITE">
+                     <font>
+                        <Font name="Consolas" size="35.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="btClear" layoutX="6.0" layoutY="433.0" onMouseClicked="#onBtSymbolClicked" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
+               <children>
+                  <Label layoutX="40.0" layoutY="30.0" text="C" textFill="WHITE">
+                     <font>
+                        <Font name="Consolas" size="35.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="bt0" layoutX="117.0" layoutY="433.0" onMouseClicked="#onBtNumberClicked" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
+               <children>
+                  <Label layoutX="40.0" layoutY="30.0" text="0" textFill="WHITE">
+                     <font>
+                        <Font name="Consolas" size="35.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="btEqual" layoutX="227.0" layoutY="433.0" onMouseClicked="#onBtSymbolClicked" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
+               <children>
+                  <Label layoutX="40.0" layoutY="30.0" text="=" textFill="WHITE">
+                     <font>
+                        <Font name="Consolas" size="35.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+            <Pane fx:id="btPlus" layoutX="337.0" layoutY="433.0" onMouseClicked="#onBtSymbolClicked" prefHeight="100.0" prefWidth="100.0" styleClass="highlight">
+               <children>
+                  <Label layoutX="40.0" layoutY="30.0" text="+" textFill="WHITE">
+                     <font>
+                        <Font name="Consolas" size="35.0" />
+                     </font>
+                  </Label>
+               </children></Pane>
+         </children></Pane>
+      <Pane fx:id="titlePane" prefHeight="55.0" prefWidth="450.0">
+         <children>
+            <ImageView fx:id="btnClose" fitHeight="22.0" fitWidth="22.0" layoutX="414.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="C:\Users\kruge\IdeaProjects\calculadora\src\images\cancel.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="btnMinimize" fitHeight="40.0" fitWidth="25.0" layoutX="378.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="C:\Users\kruge\IdeaProjects\calculadora\src\images\backspace.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="39.0" layoutY="15.0" text="Calculadora" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="20.0" />
+               </font></Label>
+            <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="13.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="C:\Users\kruge\IdeaProjects\calculadora\src\images\icon.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
